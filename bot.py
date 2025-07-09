@@ -2,7 +2,9 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, CallbackQueryHandler, ContextTypes
 from telegram.helpers import mention_html
 
-TOKEN = "8195623590:AAE0vfuBBU_kAGhgeAzoH47pb1mP9lobB6A"
+import os
+
+TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
 
 OPTIONS = [
     "Spotter",
