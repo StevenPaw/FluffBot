@@ -1,8 +1,6 @@
 [project]
-name = "repl-nix-workspace"
+name = "fluffbot"
 version = "0.1.0"
-description = "Add your description here"
+description = "A Telegram bot for creating registrations for furry events"
 requires-python = ">=3.12"
-dependencies = [
-    "telegram>=0.0.1",
-]
+dependencies = ["telegram>=0.0.1"]
